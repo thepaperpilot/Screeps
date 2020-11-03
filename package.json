@@ -1,25 +1,31 @@
 {
-  "name": "ScreepsAutocomplete",
+  "name": "screeps",
   "version": "1.0.0",
   "description": "IDE Autocomplete for Screeps",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "grunt": "^1.3.0",
+    "grunt-cli": "^1.3.2",
+    "grunt-screeps": "^1.4.0"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "grunt screeps",
+    "test": "grunt test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Garethp/ScreepsAutocomplete.git"
+    "url": "git+https://github.com/thepaperpilot/ScreepsAutocomplete.git"
   },
   "keywords": [
     "game",
     "screeps"
   ],
-  "author": "Garethp",
+  "author": "thepaperpilot",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Garethp/ScreepsAutocomplete/issues"
+    "url": "https://github.com/thepaperpilot/ScreepsAutocomplete/issues"
   },
-  "homepage": "https://github.com/Garethp/ScreepsAutocomplete#readme"
+  "homepage": "https://github.com/thepaperpilot/ScreepsAutocomplete#readme",
+  "main": "src/main.js"
 }
